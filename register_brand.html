@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Your Brand - ResellMe</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="https://resellme.in/wp-content/uploads/2023/12/favi.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="container navbar">
+            <div class="logo">
+                <img src="https://resellme.in/wp-content/uploads/2023/12/resellme_logo.png" alt="ResellMe Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="register_brand.html" class="btn primary-btn">Register Brand</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="signup-section">
+            <div class="container">
+                <h2>Sign-up to get started</h2>
+                <form class="signup-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email ID</label>
+                        <input type="email" id="email" name="email" placeholder="Email ID" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="business-name">Your Business Name</label>
+                        <input type="text" id="business-name" name="business-name" placeholder="Your Business Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="primary-category">Primary Category</label>
+                        <select id="primary-category" name="primary-category" required>
+                            <option value="">Select Category</option>
+                            <option value="fashion">Fashion</option>
+                            <option value="electronics">Electronics</option>
+                            <option value="home-decor">Home Decor</option>
+                            <option value="beauty">Beauty & Personal Care</option>
+                            <option value="food">Food & Beverages</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="gst-number">GST Number</label>
+                        <input type="text" id="gst-number" name="gst-number" placeholder="GST Number (Optional)">
+                    </div>
+                    <div class="form-group">
+                        <label for="cancelled-cheque-image">Cancelled Cheque Image</label>
+                        <input type="file" id="cancelled-cheque-image" name="cancelled-cheque-image" accept="image/*" required>
+                        <small>Please upload a clear image of your cancelled cheque.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="profile-picture">Profile Picture</label>
+                        <input type="file" id="profile-picture" name="profile-picture" accept="image/*">
+                    </div>
+                     <div class="form-group">
+                        <label for="pickup-address">Your Pickup Address</label>
+                        <textarea id="pickup-address" name="pickup-address" rows="4" placeholder="Full Address" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Password" required>
+                    </div>
+                    <button type="submit" class="btn submit-btn">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <img src="https://resellme.in/wp-content/uploads/2023/12/resellme_logo.png" alt="ResellMe Logo">
+                <p>CIN: U74999UP2023PTC194300</p>
+                <p><a href="#">Privacy Policy</a></p>
+                <p><a href="#">Return, Refund & cancellation policy</a></p>
+                <p><a href="#">Terms & Conditions</a></p>
+            </div>
+            <div class="footer-contact">
+                <p><strong>Phone</strong></p>
+                <p>+91-8962735359</p>
+                <p><strong>E-mail</strong></p>
+                <p>ajayjactap@gmail.com</p>
+            </div>
+            <div class="footer-address">
+                <p><strong>Address</strong></p>
+                <p>A-88, Jalvayu Vihar, Sector - 21,</p>
+                <p>Gautam Buddha Nagar, Noida,</p>
+                <p>Uttar Pradesh, 201301</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

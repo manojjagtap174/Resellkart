@@ -1,0 +1,456 @@
+/* General Body and Container */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px; /* Adjust as needed */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #e91e63; /* ResellMe's pink */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.primary-btn {
+    background-color: #e91e63; /* ResellMe's pink */
+    color: #fff;
+    border: none;
+}
+
+.primary-btn:hover {
+    background-color: #d81b60;
+}
+
+.call-to-action-btn {
+    background-color: #e91e63;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+
+.call-to-action-btn:hover {
+    background-color: #d81b60;
+}
+
+/* Hero Section (Index Page) */
+.hero-section {
+    background-color: #fce4ec; /* Light pink background */
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero-section .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.hero-content {
+    flex: 1;
+    min-width: 300px;
+    text-align: left;
+}
+
+.hero-content h1 {
+    font-size: 2.8em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    flex: 1;
+    min-width: 300px;
+    text-align: right;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Why Join Section */
+.why-join-section {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.why-join-section h2 {
+    font-size: 2.2em;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.stat-item {
+    flex: 1;
+    min-width: 250px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.stat-item h3 {
+    font-size: 2.5em;
+    color: #e91e63;
+    margin-bottom: 10px;
+}
+
+.stat-item p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Contact Page Specific Styles */
+.contact-hero-section {
+    padding: 80px 0;
+    background-color: #fce4ec; /* Light pink background */
+    text-align: center;
+}
+
+.contact-content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.contact-illustration {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.contact-illustration img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.contact-info {
+    flex: 1;
+    min-width: 300px;
+    text-align: left;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.contact-info h2 {
+    font-size: 2.5em;
+    color: #e91e63;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.info-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px;
+}
+
+.info-item .icon {
+    font-size: 2em;
+    color: #e91e63;
+    margin-right: 20px;
+    flex-shrink: 0;
+    width: 40px; /* Ensure icon has a consistent width */
+    text-align: center;
+}
+
+.info-item .text-content h3 {
+    font-size: 1.3em;
+    margin: 0 0 5px 0;
+    color: #333;
+}
+
+.info-item .text-content p {
+    margin: 0;
+    color: #666;
+    line-height: 1.6;
+}
+
+
+/* About Page Specific Styles */
+.about-section {
+    padding: 80px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2.8em;
+    color: #e91e63;
+    margin-bottom: 30px;
+}
+
+.about-section p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto 25px auto;
+}
+
+.about-features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.feature-item {
+    flex: 1;
+    min-width: 280px;
+    max-width: 350px;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    text-align: left;
+}
+
+.feature-item h3 {
+    font-size: 1.5em;
+    color: #e91e63;
+    margin-bottom: 15px;
+}
+
+.feature-item p {
+    font-size: 1em;
+    color: #666;
+    margin: 0;
+    line-height: 1.6;
+}
+
+
+/* Signup Form Specific Styles */
+.signup-section {
+    padding: 60px 0;
+    background-color: #fce4ec;
+}
+
+.signup-section .container {
+    max-width: 700px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.signup-section h2 {
+    font-size: 2.2em;
+    color: #e91e63;
+    margin-bottom: 30px;
+}
+
+.signup-form .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.signup-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="tel"],
+.signup-form input[type="email"],
+.signup-form input[type="password"],
+.signup-form select,
+.signup-form textarea {
+    width: calc(100% - 20px); /* Account for padding */
+    padding: 12px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.signup-form textarea {
+    resize: vertical; /* Allow vertical resizing */
+}
+
+.signup-form input[type="file"] {
+    border: none;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.signup-form small {
+    display: block;
+    margin-top: 5px;
+    color: #888;
+    font-size: 0.9em;
+}
+
+.signup-form .submit-btn {
+    width: auto;
+    padding: 12px 40px;
+    font-size: 1.1em;
+    background-color: #e91e63;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.signup-form .submit-btn:hover {
+    background-color: #d81b60;
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-logo img {
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.footer-logo p, .footer-contact p, .footer-address p {
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+.footer-logo a, .footer-contact a, .footer-address a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-logo a:hover, .footer-contact a:hover, .footer-address a:hover {
+    color: #e91e63;
+}
+
+.footer-contact strong, .footer-address strong {
+    color: #e91e63;
+    font-size: 1.1em;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul li {
+        margin-left: 0;
+    }
+
+    .hero-section .container,
+    .contact-content-wrapper,
+    .stats,
+    .about-features,
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content, .hero-image,
+    .contact-illustration, .contact-info,
+    .stat-item, .feature-item,
+    .footer-logo, .footer-contact, .footer-address {
+        width: 100%;
+        max-width: none; /* Remove max-width on smaller screens */
+    }
+
+    .hero-content h1 {
+        font-size: 2em;
+    }
+
+    .contact-info, .signup-section .container {
+        padding: 25px;
+    }
+}
